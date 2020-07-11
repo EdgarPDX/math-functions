@@ -28,6 +28,8 @@ Write a function called multiply() that takes in two numbers as arguments and re
 */
 
 export function multiply(a, b) {
+    const multiResult = (a * b);
+    return [multiResult, `The product of ${a} and ${b} is ${multiResult}.`];
 
 }
 
